@@ -1,0 +1,11 @@
+[project]
+name = "duckdb_async"
+version = "0.1.0"
+description = "Python Async Interface for DuckDB using Rust and duckdb-rs"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["maturin >= 0.14.0"]
+build-backend = "maturin"
